@@ -154,6 +154,9 @@ a {
     width: calc( (((100% - (40px * (12 - 1))) / 12) * 3) + ( 40px * (3 - 1))); }
   .header__btn {
     text-align: right; }
+  .header__nav {
+    width: -webkit-calc( (((100% - (40px * (12 - 1))) / 12) * 6) + ( 40px * (6 - 1)));
+    width: calc( (((100% - (40px * (12 - 1))) / 12) * 6) + ( 40px * (6 - 1))); }
   .header-nav {
     line-height: 40px;
     margin: 0 -15px; }
@@ -248,7 +251,7 @@ a {
   letter-spacing: 2.6px;
   text-transform: uppercase; }
 
-.title::before {
+.title:before {
   content: '';
   display: block;
   height: 10px;

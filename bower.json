@@ -3,7 +3,7 @@
   "description": "gulp_pug_sass_bem_boilerplate",
   "main": "index.js",
   "authors": [
-    "Alexandr Ponomarenko <a.ponomarenko@interact.agency>"
+    "wander"
   ],
   "license": "ISC",
   "homepage": "",
@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "mdi": "^1.9.33"
+    "mdi": "^1.9.33",
+    "jquery": "^3.2.1"
   }
 }

@@ -2,8 +2,8 @@ mixin head-line()
   +b.DIV.head-line
     +e.DIV.container
       +b.DIV.head-line-item
-        +e.I.icon(class="mdi mdi-map-marker")
-        |г. Киев, ул. Михайловская, 20
+        +e.I.icon.--test-attr.mdi.mdi-map-marker(data-id="test")
+        |г. Киев, ул. Михайловская, 208
       +b.DIV.head-line-item
         +e.I.icon(class="mdi mdi-map-marker")
         |г. Киев, ул. Михайловская, 20
@@ -13,3 +13,7 @@ mixin head-line()
       +b.DIV.head-line-item
         +e.I.icon(class="mdi mdi-map-marker")
         |г. Киев, ул. Михайловская, 20
+      +b.test
+        +e лалалла pug
+          ul
+            li(data-id="test") lilili
